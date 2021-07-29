@@ -11,7 +11,7 @@ pip install requests bs4 pyqt5
 ```
 pip install requests bs4 pyqt5 pyqt5-tools pyqt5designer
 ```
-## Run:
+## Download/Clone All File and Run:
 ```
 python PL.py
 ```
