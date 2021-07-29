@@ -53,7 +53,6 @@ class PLTracker(QDialog):
         curRow = 0
         self.tblTracking.setRowCount(len(table_data)-1)
 
-        print(table_data)
         if len(table_data) > 0 and table_data[1][1] != "No record found":
             del table_data[0] # Remove First Item - Contain Nothing
 
