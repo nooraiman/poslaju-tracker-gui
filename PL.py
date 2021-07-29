@@ -92,7 +92,9 @@ class PLTracker(QDialog):
                 self.StopSpam()
                 self.loadTracking()
             else:
-                print("Poslaju Server is Unreachable!")
+                al.setText("Poslaju Server is Unreachable!")
+                al.setWindowTitle("Error!")
+                al.show()
 
 
 
